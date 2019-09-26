@@ -1,5 +1,5 @@
 # 1. Print the contents of an array of 16 numbers, four numbers at a time, using just each.
-array = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+array = (1..16).to_a
 
 (0..3).each do |i|
     x = (i * 3) + i
